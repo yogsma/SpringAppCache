@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableAutoConfiguration
 @ComponentScan(basePackages = "com.betterjavacode")
 @EnableJpaRepositories(basePackages = "com.betterjavacode.repositories")
-@EnableCaching
+//@EnableCaching
 public class SpringAppCacheApplication
 {
 	public static void main(String[] args) {
